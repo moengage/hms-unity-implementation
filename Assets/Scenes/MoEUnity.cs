@@ -4,7 +4,7 @@ using UnityEngine;
 using HuaweiService;
 using MoEngage;
 
-public class MoETestScript : MonoBehaviour
+public class MoEUnity : MonoBehaviour
 {
     private static string TAG = "MoETestScript";
     // Start is called before the first frame update
@@ -12,7 +12,6 @@ public class MoETestScript : MonoBehaviour
         Debug.Log(TAG + " Start() : ");
         MoEngageClient.Initialize(gameObject);
         MoEngageClient.SetUniqueId("moengageunitysample");
-        MoEngageClient.EnableSDKLogs();
     }
 
     // Update is called once per frame

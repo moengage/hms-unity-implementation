@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="com.moengage:moe-android-sdk:10.5.00"/>
+    <androidPackage spec="com.moengage:unity-wrapper:1.1.01"/>
+  </androidPackages>
+    
+  <!-- iOS Cocoapod dependencies can be specified by each iosPod element. -->
+  <iosPods>
+    <iosPod name="MoEPluginBase" version="~> 1.2.0" minTargetSdk="9.0">
+    </iosPod>
+  </iosPods>
+</dependencies>

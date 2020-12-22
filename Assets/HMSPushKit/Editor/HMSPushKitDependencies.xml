@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dependencies>
+
+  <androidPackages>
+    <androidPackage spec="com.moengage:hms-pushkit:1.1.01">
+    </androidPackage>
+  </androidPackages>
+
+</dependencies>
